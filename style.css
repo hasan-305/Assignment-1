@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
 }
 .header-border{
@@ -12,23 +12,33 @@ h1{
     border-image-slice: 1;
     border-left: 5px solid;
     padding-left: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border-bottom:10px white;
+    border-top:10px white;
     
     }
 .half-width{
     width: 50%;
     padding-left: 25px;
+    padding: 50px;
 }
 .half-width h1{
-    width: 50%;
-    padding-left: 12px;
+    width: 150%;
+    padding-left: 2%;
     padding-top: 50px;
+    padding-bottom: 40px;
+
     
     }
+#text-format-2{
+    padding-left: 30%;
+    padding-top: 5%;
+}
 .half-width img{
-    width: 50%;
-    padding-left: 25px;
+    width: 40%;
+    padding-left: 10px;
     display: flex;
+    padding-top: 10%;
 }
 .top{
     display: flex;
@@ -80,13 +90,13 @@ h1{
     padding: 5%;
 }
 .mid-2 img{
-    width: 50%;
+    width: 60%;
     padding-left: 40%;
     margin-top: 30px;
 }
 #text-format{
     width: 40%;
-    padding-right: 20%;
+    padding-right: 30%;
     margin-top: 30px;
     font-weight: bolder;
     padding-bottom: 30px;
